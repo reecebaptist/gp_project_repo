@@ -1,0 +1,1309 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 8077 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Winter Sem 2020-21 Notes/C1. GP/Project/Source Code 2/GP_Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+6511
+Successfully changed project path to: F:/Winter Sem 2020-21 Notes/C1. GP/Project/Source Code 2/GP_Project
+F:/Winter Sem 2020-21 Notes/C1. GP/Project/Source Code 2/GP_Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 170.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path E:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Winter Sem 2020-21 Notes/C1. GP/Project/Source Code 2/GP_Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     1977 MB
+    Driver:   26.21.14.4166
+Initialize mono
+Mono path[0] = 'E:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004540 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 124.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.343 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.979 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1792 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2233.
+Total: 4.932900 ms (FindLiveObjects: 0.370700 ms CreateObjectMapping: 0.156500 ms MarkObjects: 4.073700 ms  DeleteObjects: 0.329100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken BR.asset
+  artifactKey: Guid(b9ddae269c2e465418c05f95e0a00a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken BR.asset using Guid(b9ddae269c2e465418c05f95e0a00a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3516bdfb050c8927d705765ee650c6da') in 0.439083 seconds
+  Import took 0.446483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 4.asset
+  artifactKey: Guid(8bd0fa5ad4c00df44b3a21e5a40ead35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 4.asset using Guid(8bd0fa5ad4c00df44b3a21e5a40ead35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f7d49270d4030242c3d606bdf1d5f5') in 0.014385 seconds
+  Import took 0.022430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png
+  artifactKey: Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Particle Flame.png using Guid(cfcfd3af954eeb54cb041fe6d75a983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815115f11976e286cf8dfc5209007d77') in 0.266384 seconds
+  Import took 0.273734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000742 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 L B.asset
+  artifactKey: Guid(c5cc3a278e8f83449a6d275c25b6ecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 L B.asset using Guid(c5cc3a278e8f83449a6d275c25b6ecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae71deee314598f47042023a081a1406') in 0.008420 seconds
+  Import took 0.014695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C B.asset
+  artifactKey: Guid(a1995557339b40048af5968ac1a8ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C B.asset using Guid(a1995557339b40048af5968ac1a8ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca8aa9b8ec8d5fa4920500cc2482b0d') in 0.007940 seconds
+  Import took 0.013456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture
+  artifactKey: Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture using Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5c9c2bd1a8fd9d8ad327f4b7fa8d23') in 0.003951 seconds
+  Import took 0.008878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
+  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab28819548bc592940406969e1dd487f') in 0.687813 seconds
+  Import took 0.694053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab
+  artifactKey: Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab using Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d589daf453567d2744b26f9b1182ada') in 0.002886 seconds
+  Import took 0.008520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab
+  artifactKey: Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Fire Bowl Fire.prefab using Guid(69e62f89c9d82ba4085d34eeff6f57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2831aea4b7d79b4da65dc5aa9aa68044') in 0.028936 seconds
+  Import took 0.035779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken M.asset
+  artifactKey: Guid(2d016263d32ddfd4daf46c0ddeeeaa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken M.asset using Guid(2d016263d32ddfd4daf46c0ddeeeaa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a899149e9a0c8316f1e28e2140f8cc2b') in 0.013520 seconds
+  Import took 0.019399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 4.asset
+  artifactKey: Guid(740f99afb7ff35841a8bf440e275acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 4.asset using Guid(740f99afb7ff35841a8bf440e275acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4853b5b413a70cd0844307675e8edbbe') in 0.011204 seconds
+  Import took 0.018141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C R.asset
+  artifactKey: Guid(73ff3bb3a8ca70943a2ea71c31a5ab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C R.asset using Guid(73ff3bb3a8ca70943a2ea71c31a5ab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9340e111414f9671f669ee2709a16ddf') in 0.009699 seconds
+  Import took 0.016855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C BL.asset
+  artifactKey: Guid(76cea99b4cba32441b73f1c00305f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C BL.asset using Guid(76cea99b4cba32441b73f1c00305f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e6d09b28df198f763efffe67d7b843') in 0.009229 seconds
+  Import took 0.016338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 1.asset
+  artifactKey: Guid(a3ca319545d544b4c8a8934870557d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 1.asset using Guid(a3ca319545d544b4c8a8934870557d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c661592a27c9a9ae416c67358ca8dbf6') in 0.012013 seconds
+  Import took 0.019007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C TL.asset
+  artifactKey: Guid(98db5c1a1660fdd478bf9cd37af282d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C TL.asset using Guid(98db5c1a1660fdd478bf9cd37af282d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faad9b4d9e2770e31c87a6b95c4a5069') in 0.013351 seconds
+  Import took 0.020510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col B.asset
+  artifactKey: Guid(dae2532d28d98304299922149008a2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col B.asset using Guid(dae2532d28d98304299922149008a2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eafcacf59444cfa9ce4712029b837e5') in 0.011584 seconds
+  Import took 0.017357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png
+  artifactKey: Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png using Guid(4525736a9d0538940bce8f13f1227b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad0fd1e52227bd06008e9fc25bd1bce') in 0.017777 seconds
+  Import took 0.024109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 1.asset
+  artifactKey: Guid(2ca2bc04a3688dc4ab41ad06bfc2445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 1.asset using Guid(2ca2bc04a3688dc4ab41ad06bfc2445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d16f6f6499d20f7c96db23e98e7911a') in 0.013114 seconds
+  Import took 0.019846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png
+  artifactKey: Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground Darken.png using Guid(157cbc340d2b7e64ab85168e80e95550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac970cedc9d9e47b6c56be24f8f017da') in 0.145268 seconds
+  Import took 0.151356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C TR.asset
+  artifactKey: Guid(03e01936ed1ce454a9c0b0dc184da554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C TR.asset using Guid(03e01936ed1ce454a9c0b0dc184da554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1d97f8a245148d3ab7f94064ca3c05') in 0.010156 seconds
+  Import took 0.015818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Campfire Fire.prefab
+  artifactKey: Guid(2b206c0d2afb3604183d9210be1d84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Campfire Fire.prefab using Guid(2b206c0d2afb3604183d9210be1d84ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faafbe450165d7778c01b3f9b10d0b98') in 0.010682 seconds
+  Import took 0.018067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(24e130735dd10644393ba4027092c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(24e130735dd10644393ba4027092c02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956d5231f961c928b81136797b6e9b83') in 0.003515 seconds
+  Import took 0.010200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab
+  artifactKey: Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab using Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440691cd59e41c91a2b519a35ef67a6d') in 0.007121 seconds
+  Import took 0.014140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken T.asset
+  artifactKey: Guid(129b8d44277e04a4da2aaaef6c4fb58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken T.asset using Guid(129b8d44277e04a4da2aaaef6c4fb58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dfdb99217ab519ecaabb46b589c086') in 0.009753 seconds
+  Import took 0.016216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken B.asset
+  artifactKey: Guid(04703ecd71c459d40b639601f104c141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken B.asset using Guid(04703ecd71c459d40b639601f104c141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd1371c4245149785062351794a8e85') in 0.010230 seconds
+  Import took 0.017228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row R.asset
+  artifactKey: Guid(78583234e7a00984788481c8927df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row R.asset using Guid(78583234e7a00984788481c8927df2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4813c179415a826c5c17a0434b607ba8') in 0.011382 seconds
+  Import took 0.019035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 R T.asset
+  artifactKey: Guid(01efbecf7f976bd4e843c7596abff477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 R T.asset using Guid(01efbecf7f976bd4e843c7596abff477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb8c3e1947760095f4d0ecf61a08552') in 0.013392 seconds
+  Import took 0.019148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row M.asset
+  artifactKey: Guid(3d362e8338b3811489ce6689782cde87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row M.asset using Guid(3d362e8338b3811489ce6689782cde87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a35f52fcb07bb3658c3c6df919de6dd') in 0.011220 seconds
+  Import took 0.017289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props
+  artifactKey: Guid(1f08d781702466b438d35aa7938d8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props using Guid(1f08d781702466b438d35aa7938d8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dc67ebbb0f43278af485fe71dc1798') in 0.003367 seconds
+  Import took 0.012667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette
+  artifactKey: Guid(ffa1277bff802794d811d96630d14d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette using Guid(ffa1277bff802794d811d96630d14d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9669f3c5ad80832c529d9e9dace5b3') in 0.004823 seconds
+  Import took 0.012949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col M.asset
+  artifactKey: Guid(4f6684df7d869c347b9b3fe1c2c0a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col M.asset using Guid(4f6684df7d869c347b9b3fe1c2c0a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efee2ab05186579aa56edc4f37f017b') in 0.011403 seconds
+  Import took 0.017671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken TL.asset
+  artifactKey: Guid(986ccee9a7cef0d408ccc4216da61ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken TL.asset using Guid(986ccee9a7cef0d408ccc4216da61ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4cf211be89d1330702211754816956') in 0.010746 seconds
+  Import took 0.016709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png
+  artifactKey: Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Tileset Ground.png using Guid(bb35af95735851440927571ef230221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e82f888760728dbe4f29baf527c12c4') in 0.165437 seconds
+  Import took 0.174397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001087 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C T.asset
+  artifactKey: Guid(9e4f4955b20ae3743891a92c391e1e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C T.asset using Guid(9e4f4955b20ae3743891a92c391e1e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd4e370ab897fef2e8c2eb2ad6aabba') in 0.016837 seconds
+  Import took 0.026519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000911 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Torch Fire.prefab
+  artifactKey: Guid(4cfc0b96b77f5374a9242d6779dd65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF FX Torch Fire.prefab using Guid(4cfc0b96b77f5374a9242d6779dd65bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c35d9af0fde0a8e94d8b2c650b6cc4') in 0.012861 seconds
+  Import took 0.023537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row L.asset
+  artifactKey: Guid(1f37ec1bd73d7344b8b72ec59262c115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Row L.asset using Guid(1f37ec1bd73d7344b8b72ec59262c115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f873848fbcf136d372780b98e64248') in 0.017355 seconds
+  Import took 0.028692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C L.asset
+  artifactKey: Guid(a36a794465e826449b1f38963ed245e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C L.asset using Guid(a36a794465e826449b1f38963ed245e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb9fdbb1c62cd00e9b1110ddab1289f') in 0.020730 seconds
+  Import took 0.032303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken
+  artifactKey: Guid(0342b4881245d184c837b80b9af11220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken using Guid(0342b4881245d184c837b80b9af11220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9700c08f3588738417d96fbcef04efdc') in 0.004503 seconds
+  Import took 0.016216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 R B.asset
+  artifactKey: Guid(77f8a7c8975d48e4c882c5af70fb8259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 R B.asset using Guid(77f8a7c8975d48e4c882c5af70fb8259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3dbe6385f9c8812aa3b40e66d83a7d') in 0.023780 seconds
+  Import took 0.035714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000742 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken S.asset
+  artifactKey: Guid(1b5a4b556d5541d4391a4cdb597a8a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken S.asset using Guid(1b5a4b556d5541d4391a4cdb597a8a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a9cca1ba8b5125f33df187a51f62af') in 0.015378 seconds
+  Import took 0.026521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 3.asset
+  artifactKey: Guid(46194387393705e41b326eb989b3c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 3.asset using Guid(46194387393705e41b326eb989b3c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da75295b59d48784e08ea51b7cd5a341') in 0.020996 seconds
+  Import took 0.037186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000666 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 L T.asset
+  artifactKey: Guid(ee8ba4d11c1e64140b82b73847b08a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X1 L T.asset using Guid(ee8ba4d11c1e64140b82b73847b08a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585e52b4323c126f02969580fcf6df4d') in 0.015495 seconds
+  Import took 0.024460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 2.asset
+  artifactKey: Guid(f1b197e49dd029848956b99cd39beffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 R 2.asset using Guid(f1b197e49dd029848956b99cd39beffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25914858ab66b0408385d9ce5492b0a') in 0.018508 seconds
+  Import took 0.030142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken TR.asset
+  artifactKey: Guid(1c7a21ca0aaa9b94282b12f5a5709695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken TR.asset using Guid(1c7a21ca0aaa9b94282b12f5a5709695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c4f8fb418a86eb74e17b001f2b1052') in 0.013707 seconds
+  Import took 0.024615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col T.asset
+  artifactKey: Guid(55b43c087af44f64588378eb5f5304d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Col T.asset using Guid(55b43c087af44f64588378eb5f5304d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8529a61cd1a74c8ebfa42cc219c2464d') in 0.016561 seconds
+  Import took 0.038381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 3.asset
+  artifactKey: Guid(cd69dadac56951c4cb33d79d0d99fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 3.asset using Guid(cd69dadac56951c4cb33d79d0d99fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572260142ecbdbb3be226fae17f538c8') in 0.016886 seconds
+  Import took 0.027805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001115 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab
+  artifactKey: Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab using Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de72aa29264d44cee200746f9647156') in 0.011986 seconds
+  Import took 0.022977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000908 seconds.
+  path: Assets/Cainos
+  artifactKey: Guid(e4e6dc9b2e93c36458d9ec7adaaf5310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos using Guid(e4e6dc9b2e93c36458d9ec7adaaf5310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ee6d31e4a63aaa2efce39390c73722') in 0.004870 seconds
+  Import took 0.014150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001216 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken BL.asset
+  artifactKey: Guid(04a5deedc6a0b614385e280ca3344d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken BL.asset using Guid(04a5deedc6a0b614385e280ca3344d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec52ff2d12358c2351d3d2fb3ea7ff0') in 0.014722 seconds
+  Import took 0.024138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C BR.asset
+  artifactKey: Guid(ffa1d554ba49dbc4a8aacb2c90fe4b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken C BR.asset using Guid(ffa1d554ba49dbc4a8aacb2c90fe4b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb1b264b1cb82438affad3be08dd632') in 0.018484 seconds
+  Import took 0.030657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken L.asset
+  artifactKey: Guid(fdc8e2476ca7b07488d5c1819ad461dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken L.asset using Guid(fdc8e2476ca7b07488d5c1819ad461dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0aea2ce1e85561022e4941b5676f02') in 0.017742 seconds
+  Import took 0.027582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001027 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken R.asset
+  artifactKey: Guid(a2482ba922cca67448818e25c7a26030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken R.asset using Guid(a2482ba922cca67448818e25c7a26030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f58c3b5176a8073fc52d670b9c52d8') in 0.016286 seconds
+  Import took 0.026425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000979 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 2.asset
+  artifactKey: Guid(95648a3f21b5cea4284a0025a3eebd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken/TX Tileset Ground Darken Slope X2 L 2.asset using Guid(95648a3f21b5cea4284a0025a3eebd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea23d62701b179dac344be5f9d01157') in 0.018880 seconds
+  Import took 0.029409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.267940 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground
+  artifactKey: Guid(caf1e9025fedeb146a034f570e543715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground using Guid(caf1e9025fedeb146a034f570e543715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a4e3a0f69b81acff6056bf0202c2ec') in 0.002479 seconds
+  Import took 0.008758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139758 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground B.asset
+  artifactKey: Guid(25ce9a13498f5034d90b660541eba074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground B.asset using Guid(25ce9a13498f5034d90b660541eba074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc42753a997a61088962b267ec2004da') in 0.014986 seconds
+  Import took 0.026712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C R.asset
+  artifactKey: Guid(e4e26a4dcb63e0e409c7e06fb8a6d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C R.asset using Guid(e4e26a4dcb63e0e409c7e06fb8a6d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f19074cd811c01c4a23f51800f1698f') in 0.017420 seconds
+  Import took 0.028006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 R 1.asset
+  artifactKey: Guid(b5543555bddff714fadae184c827c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 R 1.asset using Guid(b5543555bddff714fadae184c827c837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae0d94cf2c894d95f181e8330442410') in 0.011484 seconds
+  Import took 0.017185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground R.asset
+  artifactKey: Guid(f01cbddac890cfa42aa6c212b984e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground R.asset using Guid(f01cbddac890cfa42aa6c212b984e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200a3f5ccffaa98f630399a0b0dca10a') in 0.007665 seconds
+  Import took 0.013375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 L 2.asset
+  artifactKey: Guid(33a663926ba799a4696b69c0055e971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 L 2.asset using Guid(33a663926ba799a4696b69c0055e971f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2a2b4b636a13ad4409c868c4923c47') in 0.008648 seconds
+  Import took 0.013822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Col B.asset
+  artifactKey: Guid(3170764fc96d1eb43ba4e482441afd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Col B.asset using Guid(3170764fc96d1eb43ba4e482441afd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29c619c30045a96a9eef1c5480419ff') in 0.009703 seconds
+  Import took 0.015864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 L 4.asset
+  artifactKey: Guid(e9d18e887a8ced54ab184af2558c0abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 L 4.asset using Guid(e9d18e887a8ced54ab184af2558c0abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456fa839230faff7c84000181b328835') in 0.010404 seconds
+  Import took 0.017150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground TL.asset
+  artifactKey: Guid(b29a2a3bb5fb6a84e8a4f76cb0ce41fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground TL.asset using Guid(b29a2a3bb5fb6a84e8a4f76cb0ce41fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8bb835afdf87c49d62950395e91c91') in 0.009664 seconds
+  Import took 0.017071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground L.asset
+  artifactKey: Guid(e036b1f5dcb580a46a17ade4ad4e7a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground L.asset using Guid(e036b1f5dcb580a46a17ade4ad4e7a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154c5dfcfed2b76cac71856563f65150') in 0.013172 seconds
+  Import took 0.031753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X1 T R.asset
+  artifactKey: Guid(b2c72b8fcd469d145a815c3a13e0a167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X1 T R.asset using Guid(b2c72b8fcd469d145a815c3a13e0a167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1d8dcf2d07aa8ca36468a9536f8a0a') in 0.010199 seconds
+  Import took 0.018280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Row L.asset
+  artifactKey: Guid(6a9954ef9f7c5c549bf4eea7af489122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Row L.asset using Guid(6a9954ef9f7c5c549bf4eea7af489122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d83c3f0fa3bbe784de8edf1cb77067b') in 0.014065 seconds
+  Import took 0.020374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 L 3.asset
+  artifactKey: Guid(9af2aa58406a5c24cb264f21aed6a296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 L 3.asset using Guid(9af2aa58406a5c24cb264f21aed6a296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dbcf30b55958f68d0a47249daca373') in 0.010326 seconds
+  Import took 0.016447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C B.asset
+  artifactKey: Guid(a12e0fc7b35ceda4ca24260094ffa517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C B.asset using Guid(a12e0fc7b35ceda4ca24260094ffa517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbe9a7c391224b8e1953eb7c3d6e1b4') in 0.009902 seconds
+  Import took 0.016309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Col T.asset
+  artifactKey: Guid(23016360787fdf9498fe50cccaf084a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Col T.asset using Guid(23016360787fdf9498fe50cccaf084a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1613b720cef6acea94de878897edcf29') in 0.010415 seconds
+  Import took 0.017153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground TR.asset
+  artifactKey: Guid(e76340169880b5b42a10453e0ab4cd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground TR.asset using Guid(e76340169880b5b42a10453e0ab4cd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4379d07fb9d0a50c42dea285f12947') in 0.010598 seconds
+  Import took 0.016517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C BL.asset
+  artifactKey: Guid(d1a3f08b763f71c41878c7f48d99cf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C BL.asset using Guid(d1a3f08b763f71c41878c7f48d99cf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ef0355f9ed5ec2d9d69ba4632ed031') in 0.010731 seconds
+  Import took 0.016376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C T.asset
+  artifactKey: Guid(821a11dc143a7944da1f805e8e1fc5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C T.asset using Guid(821a11dc143a7944da1f805e8e1fc5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b94e8c24fb90a98bd58abee9799bfa') in 0.010453 seconds
+  Import took 0.016118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 L 1.asset
+  artifactKey: Guid(4ff325d7d4c0c3a449a11a528f79e1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 L 1.asset using Guid(4ff325d7d4c0c3a449a11a528f79e1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ce5d2c9c324b2a964a95e6c38a8d3f') in 0.011274 seconds
+  Import took 0.024002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X1 B L.asset
+  artifactKey: Guid(a8d140dcab9e09240bc22f9c65875fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X1 B L.asset using Guid(a8d140dcab9e09240bc22f9c65875fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b45424666f9cddbf0b350f045ff83fb') in 0.011243 seconds
+  Import took 0.018430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground S.asset
+  artifactKey: Guid(1a2538edf2f2e5b469886d3767030d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground S.asset using Guid(1a2538edf2f2e5b469886d3767030d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec632fb21eb298831d7bbcfe81a8e91') in 0.010041 seconds
+  Import took 0.016291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X1 B R.asset
+  artifactKey: Guid(889f794dd0469574696d81349e7adb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X1 B R.asset using Guid(889f794dd0469574696d81349e7adb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3680f66be01cb8e8b9d1d39ba64ff3af') in 0.010269 seconds
+  Import took 0.016831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 R 2.asset
+  artifactKey: Guid(36f3dcce3d109374b98d29d7e70bd1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 R 2.asset using Guid(36f3dcce3d109374b98d29d7e70bd1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c863b2a57a01f8042822618509e914') in 0.011172 seconds
+  Import took 0.018245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X1 T L.asset
+  artifactKey: Guid(32c88552bdcfc4743a9c3e70b4ef834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X1 T L.asset using Guid(32c88552bdcfc4743a9c3e70b4ef834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752c648c57e54a259effc6554fc80eff') in 0.010833 seconds
+  Import took 0.016654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 R 3.asset
+  artifactKey: Guid(9c28e4854f1bac1488f3ee854aab4eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 R 3.asset using Guid(9c28e4854f1bac1488f3ee854aab4eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d85f265127a883f2bae6068eafd8256') in 0.009663 seconds
+  Import took 0.015723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000925 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground M.asset
+  artifactKey: Guid(475f07e43f745b249a4f96f460c1ecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground M.asset using Guid(475f07e43f745b249a4f96f460c1ecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b2411aeb07b988d30cf660998c686a') in 0.018861 seconds
+  Import took 0.027044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C L.asset
+  artifactKey: Guid(ac6e1ed9cbe751440877d4dbd6dd9f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C L.asset using Guid(ac6e1ed9cbe751440877d4dbd6dd9f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22db115deb3b91473254b370328babbf') in 0.011421 seconds
+  Import took 0.021746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Col M.asset
+  artifactKey: Guid(8dde3af91db8a09499a4868b49f69fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Col M.asset using Guid(8dde3af91db8a09499a4868b49f69fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8187e28de1ea1c5adbae971687ff42fd') in 0.020537 seconds
+  Import took 0.029967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005116 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Row R.asset
+  artifactKey: Guid(ffb4af781936b4245bf6a4f7f55af546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Row R.asset using Guid(ffb4af781936b4245bf6a4f7f55af546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb61fc15472cfa1bfafe82341ad0a16e') in 0.011549 seconds
+  Import took 0.021288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C TL.asset
+  artifactKey: Guid(5d73536772cde8f45a37c0674ac7cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C TL.asset using Guid(5d73536772cde8f45a37c0674ac7cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e541582ab21f2e0e797391b3f04fa3') in 0.052792 seconds
+  Import took 0.062454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Row M.asset
+  artifactKey: Guid(9fbd6d8a5f77cba48bb729821c4bbed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Row M.asset using Guid(9fbd6d8a5f77cba48bb729821c4bbed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7804aa862a915c78f577af0b440b486') in 0.026318 seconds
+  Import took 0.034202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C TR.asset
+  artifactKey: Guid(253d4152c225c644ea5d1b32cf3f501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C TR.asset using Guid(253d4152c225c644ea5d1b32cf3f501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dc86b87d1d985e33c126c8f735687f') in 0.015696 seconds
+  Import took 0.030364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground T.asset
+  artifactKey: Guid(d26337cf2fc3dff4d9bed217dcb6f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground T.asset using Guid(d26337cf2fc3dff4d9bed217dcb6f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31039632d2a5bf2ccf458dad0303bd69') in 0.020533 seconds
+  Import took 0.038373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 R 4.asset
+  artifactKey: Guid(c0dbb92be68757e4e838953d64d65ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground Slope X2 R 4.asset using Guid(c0dbb92be68757e4e838953d64d65ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80009bde5ae76a5b77579591324645e1') in 0.012193 seconds
+  Import took 0.027966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground BL.asset
+  artifactKey: Guid(32a6fea2c53553c4b953b00d95bfe847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground BL.asset using Guid(32a6fea2c53553c4b953b00d95bfe847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b19259a260f883917af53e2127c3a22') in 0.018172 seconds
+  Import took 0.023821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground BR.asset
+  artifactKey: Guid(0171cba05c9b2b045bc0cc09fdcd8a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground BR.asset using Guid(0171cba05c9b2b045bc0cc09fdcd8a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea9b79b96fb95f7653efd0acf095a4c') in 0.011289 seconds
+  Import took 0.018412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C BR.asset
+  artifactKey: Guid(e740e60be819ac94c883dceb2922e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground/TX Tileset Ground C BR.asset using Guid(e740e60be819ac94c883dceb2922e6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40c7734d242b676a1fd6a02dad94f11') in 0.016888 seconds
+  Import took 0.023514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.566511 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Scene
+  artifactKey: Guid(3e5bc175231773446846774743597c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Scene using Guid(3e5bc175231773446846774743597c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68b5555094f34a5003410c03045ba47') in 0.002819 seconds
+  Import took 0.008788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010482 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Scene
+  artifactKey: Guid(3e5bc175231773446846774743597c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Scene using Guid(3e5bc175231773446846774743597c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68b5555094f34a5003410c03045ba47') in 0.002978 seconds
+  Import took 0.008520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.562796 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material
+  artifactKey: Guid(9ac4b6a5224288540a1d038f5d6101e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material using Guid(9ac4b6a5224288540a1d038f5d6101e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e420297f51b14bb2378918b5960a604') in 0.003517 seconds
+  Import took 0.008961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.390354 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Fire.mat
+  artifactKey: Guid(dce4faabfa7d00147bb7d853e5c1fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Fire.mat using Guid(dce4faabfa7d00147bb7d853e5c1fbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc25e316b54d409cdabca4abb994dded') in 0.332279 seconds
+  Import took 0.343070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Glow.mat
+  artifactKey: Guid(6c48dc6ed4cda324b83bb2391ca6fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Glow.mat using Guid(6c48dc6ed4cda324b83bb2391ca6fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2d333aca376c3b0612c7ea9d824355') in 0.024630 seconds
+  Import took 0.033925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Spark.mat
+  artifactKey: Guid(23524a906e8f5eb4384f92eb87af52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material/MT FX Particle Torch Spark.mat using Guid(23524a906e8f5eb4384f92eb87af52f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abe8491e9f98786fd1d57142aa8680f') in 0.029348 seconds
+  Import took 0.043519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.762186 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Scene/SC Demo Scene - Village PropsSettings.lighting
+  artifactKey: Guid(1dc496ea7e184924e936cbedad333dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Scene/SC Demo Scene - Village PropsSettings.lighting using Guid(1dc496ea7e184924e936cbedad333dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '127d3350945ea94571334074b4a2b7df') in 0.004697 seconds
+  Import took 0.009120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010811 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Scene/SC Demo Scene - Village PropsSettings.lighting
+  artifactKey: Guid(1dc496ea7e184924e936cbedad333dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Scene/SC Demo Scene - Village PropsSettings.lighting using Guid(1dc496ea7e184924e936cbedad333dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '127d3350945ea94571334074b4a2b7df') in 0.002615 seconds
+  Import took 0.006956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.699364 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Scene/SC Demo Scene - Village Props.unity
+  artifactKey: Guid(104b0d14871d44f4881963af94f49350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Scene/SC Demo Scene - Village Props.unity using Guid(104b0d14871d44f4881963af94f49350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0ffe8efd6a2590a9965aabad8bebe2') in 0.003360 seconds
+  Import took 0.008481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 613.449845 seconds.
+  path: Assets/Sunnyland
+  artifactKey: Guid(f6f5d74627ea5b543b4eec0c2ae5ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland using Guid(f6f5d74627ea5b543b4eec0c2ae5ba02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fb7b3194cab5967107926b4acb674a') in 0.002923 seconds
+  Import took 0.008031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.150072 seconds.
+  path: Assets/Sunnyland/artwork
+  artifactKey: Guid(2f17d1e6a207e4d8eb72bd03b1b645ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork using Guid(2f17d1e6a207e4d8eb72bd03b1b645ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a29990d9031bc0f8953bffbf747aa6') in 0.004062 seconds
+  Import took 0.009589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924729 seconds.
+  path: Assets/Sunnyland/artwork/Environment
+  artifactKey: Guid(7174750bdca91466fa784bba50da49b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment using Guid(7174750bdca91466fa784bba50da49b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478b0a613845aaa4cee5b97391b50efe') in 0.002683 seconds
+  Import took 0.008936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223383 seconds.
+  path: Assets/Sunnyland/artwork/Environment/back.png
+  artifactKey: Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/back.png using Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab927082296363d85654355218822aef') in 0.023253 seconds
+  Import took 0.030437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset-sliced.png
+  artifactKey: Guid(261212b977f594d5dbc48631a5c1295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset-sliced.png using Guid(261212b977f594d5dbc48631a5c1295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a56044e80c4045a75c698747c473d12') in 0.676257 seconds
+  Import took 0.711385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/Sunnyland/artwork/Environment/middle.png
+  artifactKey: Guid(de41d366c687a46beb6a9acaa88c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/middle.png using Guid(de41d366c687a46beb6a9acaa88c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242421477ba29d73bbb9c1ecd14b7201') in 0.026933 seconds
+  Import took 0.033619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset.png
+  artifactKey: Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset.png using Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d10f60160c5ba6a658b97ae9640b9bc') in 0.023795 seconds
+  Import took 0.029898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.033334 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset-sliced.png
+  artifactKey: Guid(261212b977f594d5dbc48631a5c1295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset-sliced.png using Guid(261212b977f594d5dbc48631a5c1295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eac7590b44ac73820c5164f4011d477') in 0.706883 seconds
+  Import took 0.721949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/Sunnyland/artwork/Environment/middle.png
+  artifactKey: Guid(de41d366c687a46beb6a9acaa88c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/middle.png using Guid(de41d366c687a46beb6a9acaa88c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deadd5e58740c03782170586abf1bf98') in 0.033951 seconds
+  Import took 0.043172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Sunnyland/artwork/Environment/back.png
+  artifactKey: Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/back.png using Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3264101c350c4a7dfdf4a7f5484a22d') in 0.058532 seconds
+  Import took 0.072397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset.png
+  artifactKey: Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset.png using Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f23a22d4b85aecee768565350a53aa') in 0.052065 seconds
+  Import took 0.066137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.229956 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset.png
+  artifactKey: Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset.png using Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c99fb7b879ae63c93faa2f43f992c4') in 0.025824 seconds
+  Import took 0.032501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.450903 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset.png
+  artifactKey: Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset.png using Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c513f4a9183b7a422c2ca07c7d799105') in 0.627612 seconds
+  Import took 0.638296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 385.358393 seconds.
+  path: Assets/Palettes/Sunny Land.prefab
+  artifactKey: Guid(fbfdb25fae7290d44961785aa2db05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/Sunny Land.prefab using Guid(fbfdb25fae7290d44961785aa2db05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40bbe2b751f6111765776fc798eca11') in 0.008469 seconds
+  Import took 0.014413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 589.976476 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props
+  artifactKey: Guid(15e7312e0607f4e84aeacdc44a70744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props using Guid(15e7312e0607f4e84aeacdc44a70744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08a8d405ebf3acebe152f512686d4d5') in 0.003815 seconds
+  Import took 0.009113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178344 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/big-crate.png
+  artifactKey: Guid(3fc2bbd409bf34ab6af1637bab569da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/big-crate.png using Guid(3fc2bbd409bf34ab6af1637bab569da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74818f99a666ea6998fb7aa80d5814d') in 0.024079 seconds
+  Import took 0.030285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/spikes-top.png
+  artifactKey: Guid(c6803a2a3fe7f45e786b788e8ddb6771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/spikes-top.png using Guid(c6803a2a3fe7f45e786b788e8ddb6771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7cfeae76b399cf91fa8ccde9ae4ba5') in 0.017395 seconds
+  Import took 0.028262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/spike-skull.png
+  artifactKey: Guid(a225befe4953547da8c4133e5d585029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/spike-skull.png using Guid(a225befe4953547da8c4133e5d585029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870ac4e49ebef1949e34c676074db5cf') in 0.018808 seconds
+  Import took 0.025281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/tree.png
+  artifactKey: Guid(f7187675ec12e4aacaeb0e97ad31230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/tree.png using Guid(f7187675ec12e4aacaeb0e97ad31230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95421001638ba04b3ddd1e0e62681af') in 0.022239 seconds
+  Import took 0.027974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000848 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/door.png
+  artifactKey: Guid(8a26d60fb45014bcd9bb392106f7c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/door.png using Guid(8a26d60fb45014bcd9bb392106f7c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ced6f1763f8a27094aefaec7a0d6608') in 0.013042 seconds
+  Import took 0.018933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/platform-long.png
+  artifactKey: Guid(15fdc3c0ac15e4a62b3f968392db8b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/platform-long.png using Guid(15fdc3c0ac15e4a62b3f968392db8b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76df85af10352a076a9f29034b140df') in 0.013642 seconds
+  Import took 0.019452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/sign.png
+  artifactKey: Guid(42820af2772f24bda991ed7de294c2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/sign.png using Guid(42820af2772f24bda991ed7de294c2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c676b1b31d07ecef20ecf82580dadd5a') in 0.012742 seconds
+  Import took 0.019439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/crank-down.png
+  artifactKey: Guid(d3240c946631a4966b1bcab3db999126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/crank-down.png using Guid(d3240c946631a4966b1bcab3db999126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd154f161d0bb761fc2e04cd3916c5cf') in 0.016231 seconds
+  Import took 0.021786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/shrooms.png
+  artifactKey: Guid(f106f73fc33df4c4d9a3e8a5cb54db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/shrooms.png using Guid(f106f73fc33df4c4d9a3e8a5cb54db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4b5a27e131c46f1ba1e12ccfd2d46a') in 0.018140 seconds
+  Import took 0.024621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/skulls.png
+  artifactKey: Guid(a86fabb3151544d25b4310ff397f732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/skulls.png using Guid(a86fabb3151544d25b4310ff397f732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de67642502b45b697d3c0d5d0a648550') in 0.024398 seconds
+  Import took 0.032347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/house.png
+  artifactKey: Guid(52422ada2db954026a3ae1f1ba6b4486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/house.png using Guid(52422ada2db954026a3ae1f1ba6b4486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede5252e0dd9b12e629a9a0e82916c16') in 0.019773 seconds
+  Import took 0.028898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/rock.png
+  artifactKey: Guid(3604a08945c65491a9ffb90ad9a8ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/rock.png using Guid(3604a08945c65491a9ffb90ad9a8ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0865404110e8f12d052e374b8d570add') in 0.018464 seconds
+  Import took 0.025191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/block-big.png
+  artifactKey: Guid(5bccf13ce09bd43e39c1c3416d5de92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/block-big.png using Guid(5bccf13ce09bd43e39c1c3416d5de92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b8833e710e938be1f84d4e10b8417e') in 0.013770 seconds
+  Import took 0.022842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000720 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/crate.png
+  artifactKey: Guid(794aa25d484d140d89ea9601c122ece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/crate.png using Guid(794aa25d484d140d89ea9601c122ece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746393f161398d68d9aeec9534fe96a9') in 0.022401 seconds
+  Import took 0.030876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/spikes.png
+  artifactKey: Guid(0049772a1acaf4a49b69bb504ffe2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/spikes.png using Guid(0049772a1acaf4a49b69bb504ffe2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6eea02cca925b2832fc0cf825c8d93') in 0.016474 seconds
+  Import took 0.023582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/bush.png
+  artifactKey: Guid(ecc204495234d40f091d828790c56287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/bush.png using Guid(ecc204495234d40f091d828790c56287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269c126d3076e94dc7f9b140b9bd09f0') in 0.017201 seconds
+  Import took 0.026601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/face-block.png
+  artifactKey: Guid(f34e83b5f0fe1432cb87276148dc6341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/face-block.png using Guid(f34e83b5f0fe1432cb87276148dc6341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf419793ddced1fdac93bef8c983d9c') in 0.016181 seconds
+  Import took 0.023068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/block.png
+  artifactKey: Guid(8a8849b7b8b964564b9e89cb1ded0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/block.png using Guid(8a8849b7b8b964564b9e89cb1ded0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f657ca21d20d4e99c97ce29731da073b') in 0.015789 seconds
+  Import took 0.022807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/crank-up.png
+  artifactKey: Guid(441a2d89600064d4d9ced045b19d0ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/crank-up.png using Guid(441a2d89600064d4d9ced045b19d0ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f81dfdff72e80395869d772c39de23f') in 0.024234 seconds
+  Import took 0.031757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000879 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/small-platform.png
+  artifactKey: Guid(d3ae29bc873704d6197af9ad030f1b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/small-platform.png using Guid(d3ae29bc873704d6197af9ad030f1b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b23055beaae27fa7a6c3648f84d9ec') in 0.013844 seconds
+  Import took 0.020913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.978310 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653ce283d384579a24208b2e4d727c2a') in 0.002393 seconds
+  Import took 0.037824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.725233 seconds.
+  path: Assets/Sunny Land Forest Assets
+  artifactKey: Guid(3e2be03f70029a54fb5478c96229ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets using Guid(3e2be03f70029a54fb5478c96229ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6691c77d04edb10f1d8f968d8b0c93b6') in 0.003248 seconds
+  Import took 0.008336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.485078 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork
+  artifactKey: Guid(7774928dfb56d4efe8834b695ec6b292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork using Guid(7774928dfb56d4efe8834b695ec6b292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97be545340de98b9c9b8dcbbf695b78') in 0.002025 seconds
+  Import took 0.006251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.868071 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment
+  artifactKey: Guid(247f99824090f46c28786894c8d359d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment using Guid(247f99824090f46c28786894c8d359d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e3afab6e36ffaf5ca8da8ae8624d62') in 0.001791 seconds
+  Import took 0.007704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154179 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/background.png
+  artifactKey: Guid(0ec7f03d689614a43ae2aeba2db954c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/background.png using Guid(0ec7f03d689614a43ae2aeba2db954c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f14300f5b61be49d64a5145d87222db') in 0.022773 seconds
+  Import took 0.029184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/tileset_preview.png
+  artifactKey: Guid(c7023aa968e634fc886642f0d99afe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/tileset_preview.png using Guid(c7023aa968e634fc886642f0d99afe29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e45fd1f8b9d3323c0fe3fcaeda1e78') in 0.017341 seconds
+  Import took 0.022936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/environment-preview.png
+  artifactKey: Guid(a19e9edb7c8f94be391773f155002823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/environment-preview.png using Guid(a19e9edb7c8f94be391773f155002823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0915856d1b0bfca0961eb4625f944dcf') in 0.024620 seconds
+  Import took 0.030547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/middleground.png
+  artifactKey: Guid(d826448c67ac24a828938a397a088786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/middleground.png using Guid(d826448c67ac24a828938a397a088786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53eced0e8030942bcce149b791fdc67') in 0.017722 seconds
+  Import took 0.024920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/tileset.png
+  artifactKey: Guid(2eeb0d4e8888f48459040781a511455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/tileset.png using Guid(2eeb0d4e8888f48459040781a511455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eb59ffd3f6c04a95bff070bd46dbd4') in 0.370154 seconds
+  Import took 0.377080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.260933 seconds.
+  path: Assets/Sunny Land Forest Assets/Artwork/Environment/middleground.png
+  artifactKey: Guid(d826448c67ac24a828938a397a088786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunny Land Forest Assets/Artwork/Environment/middleground.png using Guid(d826448c67ac24a828938a397a088786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f446e1985b6a0b8dd9d9922029da13') in 0.025623 seconds
+  Import took 0.031758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 835.168613 seconds.
+  path: Assets/Sunnyland/artwork/Sprites
+  artifactKey: Guid(b6238935cfd4648cf866141c0ee28c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites using Guid(b6238935cfd4648cf866141c0ee28c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360457d4953a286fe47caf65a5c61df4') in 0.003159 seconds
+  Import took 0.008266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.657484 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player
+  artifactKey: Guid(c38f07c49aff74810b5ee46bc2a90197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player using Guid(c38f07c49aff74810b5ee46bc2a90197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee6b50bd0c0e2aae583d27d0d50fddb') in 0.002024 seconds
+  Import took 0.006559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.802434 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle
+  artifactKey: Guid(a6784c39dc28a4834b763f55ec9d0408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle using Guid(a6784c39dc28a4834b763f55ec9d0408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c306483db49524b5fe1b57f25d3a9b2') in 0.003320 seconds
+  Import took 0.012500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002010 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle
+  artifactKey: Guid(a6784c39dc28a4834b763f55ec9d0408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle using Guid(a6784c39dc28a4834b763f55ec9d0408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c306483db49524b5fe1b57f25d3a9b2') in 0.003211 seconds
+  Import took 0.008148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154714 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-1.png
+  artifactKey: Guid(72de0c64f2c6a498096698322c976a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-1.png using Guid(72de0c64f2c6a498096698322c976a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0453a6918d1d24865378603d870efd45') in 0.019616 seconds
+  Import took 0.026856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-3.png
+  artifactKey: Guid(077f0469c420a4365bc67943783293df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-3.png using Guid(077f0469c420a4365bc67943783293df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745b4d5c53c35a3585afd221f2e2632d') in 0.013498 seconds
+  Import took 0.019338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-4.png
+  artifactKey: Guid(8bc3c2c2a565342aab778fd8e874313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-4.png using Guid(8bc3c2c2a565342aab778fd8e874313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a59ff059a3818e011fcbc99dde5d1d4') in 0.014757 seconds
+  Import took 0.028852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-2.png
+  artifactKey: Guid(c8a742c1f2ebb43b9afe34a47304c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/idle/player-idle-2.png using Guid(c8a742c1f2ebb43b9afe34a47304c051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff917dccb198f16fcf42cf221c332ed') in 0.018884 seconds
+  Import took 0.026683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3992.820603 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/jump/player-jump-1.png
+  artifactKey: Guid(e2976d09b53264ffbbb9210a1ae1dcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/jump/player-jump-1.png using Guid(e2976d09b53264ffbbb9210a1ae1dcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc15f5106dc6dc5a8c81742b13d30240') in 0.026120 seconds
+  Import took 0.040756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/Sunnyland/artwork/Sprites/player/jump/player-jump-2.png
+  artifactKey: Guid(598fb1767626f42e992bb9c2769d86ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Sprites/player/jump/player-jump-2.png using Guid(598fb1767626f42e992bb9c2769d86ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a744671c0594b7f164f4e276fe4bff1') in 0.017895 seconds
+  Import took 0.024784 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
