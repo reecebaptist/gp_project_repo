@@ -44,6 +44,46 @@ Adding colliders
 5.	Added CompositeCollider 2D to ‘Foreground’
 6.	Checked the ‘Used By Composite’ box in Foreground’s RigidBody 2D
 
+Finishing Movement
+1.	Add ‘PlayerController’ script to Player.
+2.	Add the Script:
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    [SerializeField] private Rigidbody2D rb;
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        //Move Left
+        if(Input.GetKey(KeyCode.A))
+        {
+            rb.velocity = new Vector2(-5, rb.velocity.y);
+        }
+        
+        //Move Right
+        if (Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector2(5, rb.velocity.y);
+        }
+    }
+}
+
+3.	Check the Freeze Z in Constraints in RigidBody of the Player Object
+4.	Adjust the mass to 50 and linear drag to 1. (Or accordingly)
+
+
+
+Jumping
+1. There aresome steps that i'll wirte later
+
+Flipping Animations
+1. Easy work too.
+2. Will fill in later.
 
 
 
