@@ -79,12 +79,127 @@ public class PlayerController : MonoBehaviour
 
 
 Jumping
-1. There aresome steps that i'll wirte later
+1. Modify the code of Player Controller.
+2. Add the following:
+	//Jumping
+        if (Input.GetKey(KeyCode.Space))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, 5f);
+        }
+3. Problem: Infinite jumps work here.
+
 
 Flipping Animations
-1. Easy work too.
-2. Will fill in later.
+1. Modify the code and the following:
+
+	//Move Left
+        if(Input.GetKey(KeyCode.A))
+        {
+            rb.velocity = new Vector2(-5, rb.velocity.y);
+            transform.localScale = new Vector2(-1, 1);
+        }
+        
+        //Move Right
+        if (Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector2(5, rb.velocity.y);
+            transform.localScale = new Vector2(1, 1);
+        }
+
+2. Here this code affects the camera.
+3. Remove Camera from under the Player to a Separate Game Object
+4. Add 'Camera Controller' Script to it.
+5. Type the following code over there.
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CameraController : MonoBehaviour
+{
+    [SerializeField] private Transform player;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.position = new Vector3(player.position.x, player.position.y, transform.position.z);
+    }
+}
 
 
 
+Animations
+1. Go to idle folder
+2. Right Click > Create > Animation > name it 'idle'
+3. Drag it on to Player
+4. Open Animator Window from Window Drop Down List
+5. Open Animation Window.
+6. Click on Player.
+7. Drag and drop all the animations 1,2,3,4 from the folder to the timeline and adjust
+8. After adjusting play and see the result.
+9. Do 2-8 steps for run animation.
+10. No separate player thingie comes.
+11. Go to Animator window
+12. Click on Make Transisition with 'run' from idle
+13. Remove the Has Exit time. Open settings uncheck and set everything to 0.
+14. Make a transiotion from run to idle.
+15. Do the same thing.
+16. GO to parameters, create a bool called 'running' (Spelling and CAse importnant.
+17. go to conditions for each of the transisitons and make running false and true accordingly for both the transisiotns.
+18. Go to code make changes as follows:
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator anim;
+
+    // Start is called only at the beginning
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        float HDirection = Input.GetAxis("Horizontal");
+        //Move Left
+        if(HDirection < 0)
+        {
+            rb.velocity = new Vector2(-5, rb.velocity.y);
+            transform.localScale = new Vector2(-1, 1);
+            anim.SetBool("running", true);
+        }
+        
+        //Move Right
+        else if (HDirection > 0)
+        {
+            rb.velocity = new Vector2(5, rb.velocity.y);
+            transform.localScale = new Vector2(1, 1);
+            anim.SetBool("running", true);
+        }
+
+        else
+        {
+            anim.SetBool("running", false);
+        }
+
+        //Jumping
+        if (Input.GetKey(KeyCode.Space))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, 5f);
+        }
+    }
+}
+19. Code is also cleaned in the previous step.
 
