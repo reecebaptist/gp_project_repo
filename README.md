@@ -1,5 +1,8 @@
 # gp_project_repo
- 
+
+Following this video series:
+https://www.youtube.com/watch?v=JQvicrPb3ok&list=PLpj8TZGNIBNy51EtRuyix-NYGmcfkNAuH&index=6
+
 Import Assets
 1.	Add the sunny land asset from the asset store
 2.	Download and import
