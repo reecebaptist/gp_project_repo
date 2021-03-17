@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
 
+    private enum State { idle, running, jumping};
+    private State state = State.idle;
+
     // Start is called only at the beginning
     private void Start()
     {
