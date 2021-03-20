@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Text cherryText;
     [SerializeField] private float hurtForce = 10f;
 
-    private enum State { idle, running, jumping, falling, hurt};
+    private enum State { idle, running, jumping, falling, hurt };
     private State state = State.idle;
     private Collider2D coll;
 
@@ -55,9 +55,10 @@ public class PlayerController : MonoBehaviour
     {
         if(other.gameObject.tag == "Enemy")
         {
+            EnemyController frog = other.gameObject.GetComponent<EnemyController>();
             if(state == State.falling)
             {
-                Destroy(other.gameObject);
+                frog.JumpedOn();
                 Jump();
             } 
 

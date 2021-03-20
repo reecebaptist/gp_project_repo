@@ -1,3 +1,7 @@
 Base path: 'E:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data', plugins path 'E:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: shutdown
+Cmd: compileComputeKernel
+  api=4 insize=2556 outsize=1383 ok=1
+Unhandled exception: Read from shader compiler process failed: error -2147483644, 0/4 bytes read
+
+Quitting shader compiler process
