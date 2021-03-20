@@ -203,3 +203,89 @@ public class PlayerController : MonoBehaviour
 }
 19. Code is also cleaned in the previous step.
 
+Finite State Machine
+1. Create enumarators state {idle, running, jumping}
+2. Type the following:
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator anim;
+
+    private enum State { idle, running, jumping};
+    private State state = State.idle;
+
+    // Start is called only at the beginning
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+
+
+        float HDirection = Input.GetAxis("Horizontal");
+        //Move Left
+        if(HDirection < 0)
+        {
+            rb.velocity = new Vector2(-5, rb.velocity.y);
+            transform.localScale = new Vector2(-1, 1);
+            
+        }
+        
+        //Move Right
+        else if (HDirection > 0)
+        {
+            rb.velocity = new Vector2(5, rb.velocity.y);
+            transform.localScale = new Vector2(1, 1);
+            
+        }
+
+        else
+        {
+            
+        }
+
+        //Jumping
+        if (Input.GetKey(KeyCode.Space))
+        {
+            rb.velocity = new Vector2(rb.velocity.x, 5f);
+            state = State.jumping;
+        }
+
+        velocityState();
+        anim.SetInteger("state", (int)state);
+    }
+
+    private void velocityState()
+    { 
+        
+        if(state == State.jumping)
+        {
+
+        }
+        
+        else if(Mathf.Abs(rb.velocity.x) > 2f)
+        {
+            //Moving;
+            state = State.running;
+        } 
+
+        else
+        {
+            state = State.idle;
+        }
+        
+    }
+}
+
+3. Go to the parameters and delete running and add an Integer type 'state'.
+4. State = 1 for idle->run.
+5. State = 0 for run->idle.
+
