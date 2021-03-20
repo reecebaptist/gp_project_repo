@@ -18,8 +18,6 @@ public class PlayerController : MonoBehaviour
     private State state = State.idle;
     private Collider2D coll;
 
-
-
     // Start is called only at the beginning
     private void Start()
     {
