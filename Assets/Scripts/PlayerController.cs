@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,12 +12,16 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 1f;
     [SerializeField] private float jumpForce = 1f;
     [SerializeField] private int cherries = 0;
-    [SerializeField] private Text cherryText;
+    [SerializeField] private TextMeshProUGUI cherryText;
     [SerializeField] private float hurtForce = 10f;
+    [SerializeField] private AudioSource footstep;
+    [SerializeField] private AudioSource cherry;
+
 
     private enum State { idle, running, jumping, falling, hurt };
     private State state = State.idle;
     private Collider2D coll;
+    
 
     // Start is called only at the beginning
     private void Start()
@@ -45,6 +50,7 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.tag == "Collectible")
         {
+            cherry.Play();
             Destroy(collision.gameObject);
             cherries += 1;
             cherryText.text = cherries.ToString();
@@ -152,5 +158,10 @@ public class PlayerController : MonoBehaviour
             state = State.idle;
         }
         
+    }
+
+    private void Footstep()
+    {
+        footstep.Play();
     }
 }
