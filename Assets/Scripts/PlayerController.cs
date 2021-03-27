@@ -19,11 +19,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioSource cherry;
     [SerializeField] private int health;
     [SerializeField] private TextMeshProUGUI healthAmount;
-
+    
 
     private enum State { idle, running, jumping, falling, hurt };
     private State state = State.idle;
     private Collider2D coll;
+    private float HDirection = 0f;
+    private int lastLooked = 1;
     
 
     // Start is called only at the beginning
@@ -93,33 +95,41 @@ public class PlayerController : MonoBehaviour
 
     private void Movement()
     {
-        float HDirection = Input.GetAxis("Horizontal");
+        HDirection = Input.GetAxis("Horizontal");
         //Move Left
         if (HDirection < 0)
         {
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
+            rb.velocity = new Vector2(HDirection*speed, rb.velocity.y);
             transform.localScale = new Vector2(-1, 1);
-
+            lastLooked = -1;
         }
 
         //Move Right
         else if (HDirection > 0)
         {
-            rb.velocity = new Vector2(speed, rb.velocity.y);
+            rb.velocity = new Vector2(HDirection*speed, rb.velocity.y);
             transform.localScale = new Vector2(1, 1);
-
+            lastLooked = 1;
+        } 
+        
+        else
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            transform.localScale = new Vector2(lastLooked, 1);
         }
 
         //Jumping
         if (Input.GetButtonDown("Jump") && coll.IsTouchingLayers(ground))
         {
-            Jump();
+            RaycastHit2D hit = Physics2D.Raycast(rb.position, Vector2.down, 1.3f, ground);
+            if (hit.collider != null)
+                Jump();
         }
     }
 
     private void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        rb.velocity = new Vector2(rb.velocity.x-2f, jumpForce);
         state = State.jumping;
     }
 

@@ -30,4 +30,15 @@ public class EnemyController : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+
+            rb.velocity = new Vector2(0, rb.velocity.y);
+
+
+        }
+    }
+
 }

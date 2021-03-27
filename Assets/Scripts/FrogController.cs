@@ -9,6 +9,7 @@ public class FrogController : EnemyController
     [SerializeField] private float jumpLength = 10f;
     [SerializeField] private float jumpHeight = 15f;
     [SerializeField] private LayerMask ground;
+
     
     private Collider2D coll;
     
@@ -41,6 +42,8 @@ public class FrogController : EnemyController
         }
         
     }
+
+
 
     private void Move()
     {
