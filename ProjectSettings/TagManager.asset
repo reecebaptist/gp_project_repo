@@ -49,6 +49,9 @@ TagManager:
   - name: UI
     uniqueID: 2081821961
     locked: 0
+  - name: Middle
+    uniqueID: 998677587
+    locked: 0
   - name: Entity
     uniqueID: 146402191
     locked: 0

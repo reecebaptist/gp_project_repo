@@ -10,6 +10,7 @@ public class FallController : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
+            PermanentUIController.perm.Reset();
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
