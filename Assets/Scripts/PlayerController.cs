@@ -101,6 +101,7 @@ public class PlayerController : MonoBehaviour
             }
             
         }
+
     } 
 
     private void Movement()
@@ -214,7 +215,8 @@ public class PlayerController : MonoBehaviour
         if (PermanentUIController.perm.health <= 0)
         {
             PermanentUIController.perm.Reset();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            PermanentUIController.perm.Terminate();
+            SceneManager.LoadScene("GameOver");
         }
     }
 

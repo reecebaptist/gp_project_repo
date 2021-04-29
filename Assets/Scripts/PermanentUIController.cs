@@ -38,4 +38,9 @@ public class PermanentUIController : MonoBehaviour
         healthAmount.text = health.ToString();
     }
 
+    public void Terminate() 
+    {
+            Destroy(gameObject);
+    } 
+
 }

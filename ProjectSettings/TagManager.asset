@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Collectible
   - Enemy
+  - Chest
   layers:
   - Default
   - TransparentFX
