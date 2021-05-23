@@ -8,7 +8,7 @@ using TMPro;
 public class LevelController : MonoBehaviour
 {
     [SerializeField] private string sceneName;
-    [SerializeField] private TextMeshProUGUI switchTxt;
+    [SerializeField] private GameObject switchTxt;
     
     private void Start()
     {

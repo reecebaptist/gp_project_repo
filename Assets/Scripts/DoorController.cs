@@ -11,7 +11,7 @@ public class DoorController : MonoBehaviour
     public static int treasureCount = 0;
 
     [SerializeField] private string sceneName;
-    [SerializeField] private TextMeshProUGUI switchTxt;
+    [SerializeField] private GameObject switchTxt;
 
     // Start is called before the first frame update
     private void Start()
